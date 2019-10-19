@@ -13,6 +13,11 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/views'));
 app.use(cors());
 
+app.get('/', function (req, res) {
+
+    console.log("Welcome to Smart Serv.")
+    res.send('Welcome to Smart Serv-> ')
+  })
 app.use('/product', product);
 
 app.listen(process.env.PORT || 3001, () => {
