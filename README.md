@@ -14,3 +14,7 @@ npm install
 npm start
 
 Your app should now be running on localhost:3001.
+
+Running On Heroku 
+
+https://smart-serv-backend.herokuapp.com/
